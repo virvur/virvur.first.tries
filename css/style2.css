@@ -12,6 +12,11 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -71,4 +76,9 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   padding-top: 80px;
+}
+
+.container {
+  width: 720px;
+  margin: 0 auto;
 }
