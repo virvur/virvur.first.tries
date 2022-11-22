@@ -41,7 +41,7 @@ h2 {
   position: sticky;
   top: 0;
   margin: 0;
-  padding: 0px 180px;
+  padding: 0px 160px;
   background-color: rgba(251, 246, 255, 1);
   z-index: 3;
   min-width: 90vw;
@@ -59,7 +59,7 @@ h2 {
 }
 
 .logo {
-  padding: 10px 40px 5px 0px;
+  font-weight: 700;
 }
 
 .logo a {
@@ -76,7 +76,7 @@ h2 {
 
 .menu {
   list-style: none;
-  padding: 0px 0px;
+  padding: 10px 0px;
   margin: 0px 4px;
   background-color: transparent;
   display: flex;
@@ -109,10 +109,10 @@ h2 {
 }
 
 .sectionone {
-  min-height: 110vh;
+  min-height: 100vh;
   min-width: 90vw;
 
-  padding: 0px 200px;
+  padding: 0px 180px;
   background-color: transparent;
 
   display: flex;
@@ -128,10 +128,15 @@ h2 {
   padding: 0px 30px;
 }
 
+.sectionone img {
+  float: right;
+  width: 45%;
+}
+
 .sectiontwo {
-  min-height: 105vh;
+  min-height: 100vh;
   min-width: 90vw;
-  padding: 0px 300px;
+  padding: 0px 180px;
   background-color: rgba(122, 122, 194, 1);
 
   display: flex;
@@ -143,20 +148,18 @@ h2 {
 }
 
 .second {
-  line-height: 17px;
-  padding: 0px 30px;
-  margin: 20px;
+  padding: 0px 0px 0px 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   color: white;
-  max-width: 60%;
+  max-width: 40vw;
 }
 
 .sectionthree {
-  min-height: 110vh;
+  min-height: 100vh;
   min-width: 90vw;
-  padding: 0px 200px;
+  padding: 0px 180px;
   background-color: transparent;
 
   display: flex;
@@ -171,7 +174,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .third {
@@ -180,15 +183,17 @@ h2 {
 
 .thirdtwo {
   background-color: transparent;
-
-  min-width: 90vw;
-  padding: 0px 250px;
-  /* padding-left: 150px;
-  padding-right: 100px; */
+  max-width: 70vw;
+  /* padding: 0px 180px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.thirdtwo img {
+  width: 20%;
+  margin-left: 60px;
 }
 
 .container {
@@ -218,10 +223,6 @@ h2 {
   opacity: 1;
 }
 
-/* .padd {
-  margin-left: 30px;
-} */
-
 .ulone {
   list-style-type: circle;
   margin-left: 30px;
@@ -230,7 +231,7 @@ h2 {
 .sectionfour {
   min-height: 100vh;
   min-width: 90vw;
-  padding: 100px 220px;
+  padding: 100px 200px;
   background-color: rgba(122, 122, 194, 1);
 
   display: flex;
@@ -240,9 +241,13 @@ h2 {
 }
 
 .doggy {
-  padding: 20px 0px;
+  /* padding: 20px 0px; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.d1 {
+  width: 30%;
 }
